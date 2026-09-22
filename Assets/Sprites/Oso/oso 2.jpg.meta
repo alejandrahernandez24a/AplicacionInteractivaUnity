@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fe1dcedd49614ae47a08bba094657fbd
+guid: a99c297b187e5cf4e924820ab6db8fe7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7366617892383084551
-    second: flower_0
+      213: 7281900685164800657
+    second: oso 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: flower_0
+      name: oso 2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 750
-        height: 750
+        width: 1000
+        height: 1041
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 700d78f61fb7b3660800000000000000
-      internalID: 7366617892383084551
+      spriteID: 19aebec87128e0560800000000000000
+      internalID: 7281900685164800657
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      flower_0: 7366617892383084551
+      oso 2_0: 7281900685164800657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -3,6 +3,12 @@ using UnityEngine;
 public class ArrastrarSprite : MonoBehaviour
 {
     private Vector3 offset;
+    private Rigidbody2D rb;
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
 
     private void OnMouseDown()
     {
@@ -11,7 +17,16 @@ public class ArrastrarSprite : MonoBehaviour
 
     private void OnMouseDrag()
     {
-        transform.position = ObtenerPosicionMouse() + offset;
+        Vector3 nuevaPosicion = ObtenerPosicionMouse() + offset;
+        rb.MovePosition(nuevaPosicion);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "fuego")
+        {
+            Debug.Log("Me quemo, tocaste el fuego");
+        }
     }
 
     private Vector3 ObtenerPosicionMouse()
