@@ -25,7 +25,7 @@ public class ArrastrarSprite : MonoBehaviour
     {
         if (collision.gameObject.name == "fuego")
         {
-            Debug.Log("Me quemo, tocaste el fuego");
+            Debug.Log("Tocaste el fuego");
         }
     }
 
